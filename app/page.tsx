@@ -160,7 +160,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-
+          
       {/* Contact */}
       <section id="contact" className="bg-gray-50 py-20">
         <div className="max-w-3xl mx-auto px-6 text-center">
