@@ -1,6 +1,6 @@
 "use client";
-
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const skills = [
   "JavaScript",
@@ -29,7 +29,7 @@ const projects = [
     link: "#",
   },
   {
-    title: "Smart Healthcare Assistant",
+    title: "Ai-Chatbot",
     description:
       "AI-based assistant for managing healthcare appointments and reminders.",
     tech: "Python, Flask, SQLite",
@@ -68,6 +68,14 @@ export default function Home() {
           show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
+        <Image
+  src="/Profile.jpeg"
+  alt="Sudeep Regmi"
+  width={180}
+  height={180}
+  priority
+  className="rounded-full border-4 border-blue-500 shadow-2xl object-cover mb-6 hover:scale-105 transition duration-300"
+/>
         <h2 className="text-5xl font-bold leading-tight">
           Hi, I’m <span className="text-blue-600">Sudeep Regmi</span>
         </h2>
