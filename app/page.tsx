@@ -1,12 +1,11 @@
 "use client";
 
-import { link } from "fs";
 import Image from "next/image";
 
 const skillGroups = [
   {
     title: "Frontend",
-    skills: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+    skills: [ "HTML","JS","Tailwind CSS", "TypeScript"],
   },
   {
     title: "Backend",
@@ -23,14 +22,14 @@ const projects = [
     title: "Government Feedback & Notice System",
     description:
       "A full-stack e-governance platform where citizens can submit complaints and feedback while administrators manage notices and reports.",
-    tech: ["Next.js", "Node.js", "MySQL", "JWT"],
-  },
+    tech: [ "Node.js", "MySQL", "JWT"],
+  },  
   {
     title: "AI Assistant Web Application",
     description:
       "An AI-powered assistant using API integrations for real-time conversational responses and interactive experiences.",
     tech: ["AI APIs", "Node.js", "React"],
-    link: https://ai-chatbot-wb64.vercel.app/
+    link: "https://ai-chatbot-wb64.vercel.app/"
   },
   {
     title: "KaamSetu Job Portal",
