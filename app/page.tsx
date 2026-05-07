@@ -171,8 +171,8 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col gap-3 text-gray-700">
-            <p>Email: sudeep@example.com</p>
-            <p>GitHub: github.com/sudeepregmi</p>
+            <p>Email: sudeepregmi343@gmail.com</p>
+            <p>GitHub: github.com/sudeep7regmi</p>
             <p>LinkedIn: linkedin.com/in/sudeepregmi</p>
           </div>
         </div>
