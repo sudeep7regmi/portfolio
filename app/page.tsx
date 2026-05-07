@@ -1,5 +1,6 @@
 "use client";
 
+import { link } from "fs";
 import Image from "next/image";
 
 const skillGroups = [
@@ -29,6 +30,7 @@ const projects = [
     description:
       "An AI-powered assistant using API integrations for real-time conversational responses and interactive experiences.",
     tech: ["AI APIs", "Node.js", "React"],
+    link: https://ai-chatbot-wb64.vercel.app/
   },
   {
     title: "KaamSetu Job Portal",
