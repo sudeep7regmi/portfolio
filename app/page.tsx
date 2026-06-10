@@ -5,15 +5,15 @@ import Image from "next/image";
 const skillGroups = [
   {
     title: "Frontend",
-    skills: [ "HTML","JS","Tailwind CSS", "TypeScript"],
+    skills: [ "HTML","JS","Tailwind CSS", "TypeScript","React"],
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth"],
+    skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth","Next.js"],
   },
   {
     title: "Database & Tools",
-    skills: ["MySQL", "Git", "GitHub", "Postman"],
+    skills: ["MySQL", "Git", "GitHub", "Postman","Prisma ORM","Zod"],
   },
 ];
 
@@ -23,6 +23,7 @@ const projects = [
     description:
       "A full-stack e-governance platform where citizens can submit complaints and feedback while administrators manage notices and reports.",
     tech: [ "Node.js", "MySQL", "JWT"],
+    
   },  
   {
     title: "AI Assistant Web Application",
