@@ -36,6 +36,7 @@ const projects = [
     description:
       "A human resource management system for managing employees, salaries, leave requests, payroll and other HR operations through a centralized web platform.",
     tech: ["Next.js", "MySQL", "Prisma", "TypeScript"],
+    link: "https://hrm.growssence.com",
     number: "02",
   },
   {
