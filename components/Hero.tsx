@@ -33,7 +33,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/SudeepRegmiResume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md border border-zinc-800 bg-zinc-900 hover:bg-zinc-800 text-zinc-200 font-medium text-xs transition-colors"
               >
